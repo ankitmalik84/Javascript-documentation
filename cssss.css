@@ -1,0 +1,160 @@
+import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  gap: 10px;
+}
+
+header {
+  border: 1px solid rgb(12, 11, 11);
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+/* -----------------------navbar-------------------- */
+nav{
+  background-color: #0e2f44;
+  
+}
+nav h1 {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 300;
+  padding: 10px;
+  margin-top: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 25px;
+}
+/* --------------------home page content------------------ */
+.list{
+  list-style: none;
+}
+.list li {
+  border-bottom: 1px solid #ccc;
+  color: black;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 10px;
+}
+.list li:hover {
+  background: #5b5b5b;
+  border: 1px solid;
+  transition: 0.125s ease-in-out;
+  color: white;
+}
+.logo{
+  height: 140px;
+}
+/* ---------------introduction page-------------------- */
+#introduction h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#introduction p,ul{
+  font-size: 1.23rem;
+  margin-right: 12px;
+}
+/* ------------Java Script and Java------------------- */
+#JavaScript_and_Java{
+background-color: #e7d0a686;
+}
+
+#JavaScript_and_Java h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 2.25rem;
+  color: black;
+  text-decoration: none;
+  background-color: #e7dda6ea;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 20px;
+}
+
+#JavaScript_and_Java p{
+  font-size: 1.36rem;
+  margin: 12px;
+}
+.logo2{
+  height: 35px;
+  width: 55px;
+  border-radius: 3px;
+}
+
+
+
+
+
+/*----------------Main Section--------------------*/
+
+main {
+  padding-top: 50px;
+}
+
+section {
+  border: 1px solid rgb(12, 11, 11);
+  margin-bottom: 50px;
+  scroll-margin: 5px;
+}
+
+section article {
+  max-width: 1500px;
+  font-size: 16px;
+}
+section h2 {
+  font-size: 22px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+section article {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section article ul {
+  margin-left: 20px;
+}
+section article ul li {
+  margin-bottom: 10px;
+}
+
+section article p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
